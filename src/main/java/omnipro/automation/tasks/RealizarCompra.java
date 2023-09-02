@@ -5,7 +5,10 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.JavaScriptClick;
+import net.serenitybdd.screenplay.waits.WaitUntil;
+import net.serenitybdd.screenplay.waits.WaitUntilTargetIsReady;
 
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static omnipro.automation.ui.LoginPage.*;
 import static omnipro.automation.ui.LoginPage.BTN_LOGIN;
 import static omnipro.automation.ui.ProductsBuyPage.*;
@@ -26,6 +29,7 @@ public class RealizarCompra implements Task {
                 JavaScriptClick.on(BTN_PRODUCT_HOME),
                 JavaScriptClick.on (BTN_ADD_TO_CART),
                 JavaScriptClick.on (BTN_CART_HEADER),
+                WaitUntil.the(BTN_FINAL_PURCHASE, isVisible()),
                 JavaScriptClick.on (BTN_FINAL_PURCHASE),
                 Enter.theValue("Usuario de Prueba de compra").into(INPUT_NAME_PURCHASE),
                 Enter.theValue("Colombia").into(INPUT_COUNTRY_PURCHASE),

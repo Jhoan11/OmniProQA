@@ -11,7 +11,7 @@ public class ProductsBuyPage extends PageObject {
     public static final Target BTN_CART_HEADER= Target.the("Button Cart")
             .located(By.id("cartur"));
     public static final Target BTN_FINAL_PURCHASE= Target.the("Log in ")
-            .located(By.xpath("//button[contains(@class,'btn btn-success')]"));
+            .located(By.xpath("//button[@type='button'][contains(.,'Place Order')]"));
     public static final Target INPUT_NAME_PURCHASE= Target.the ( "Nombre de compra" )
             .located ( By.id("name"));
     public static final Target INPUT_COUNTRY_PURCHASE= Target.the ( "País de compra" )
