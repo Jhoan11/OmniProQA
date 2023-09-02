@@ -260,7 +260,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/omnipro/automation/questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'omnipro.automation.runners'">
+  <component name="RunManager" selected="Gradle.RunnerDeleteProducts">
     <configuration name="RunnerCategorieProducts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -383,11 +383,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RunnerDeleteProducts" />
         <item itemvalue="Gradle.Tests in 'omnipro.automation.runners'" />
         <item itemvalue="Gradle.RunnerPurchase" />
         <item itemvalue="Gradle.RunnerLogin" />
         <item itemvalue="Gradle.RunnerCategorieProducts" />
-        <item itemvalue="Gradle.RunnerDeleteProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +400,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693585969876</updated>
       <workItem from="1693597678323" duration="23662000" />
-      <workItem from="1693624770048" duration="5146000" />
+      <workItem from="1693624770048" duration="5861000" />
     </task>
     <servers />
   </component>

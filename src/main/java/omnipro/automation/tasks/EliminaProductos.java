@@ -5,7 +5,9 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.JavaScriptClick;
+import net.serenitybdd.screenplay.waits.WaitUntil;
 
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import static omnipro.automation.ui.DeleteProductsPage.BTN_DELETE_PRODUCT;
 import static omnipro.automation.ui.LoginPage.*;
 import static omnipro.automation.ui.ProductsBuyPage.*;
@@ -27,7 +29,8 @@ public class EliminaProductos implements Task {
                 JavaScriptClick.on(BTN_PRODUCT_HOME),
                 JavaScriptClick.on (BTN_ADD_TO_CART),
                 JavaScriptClick.on(BTN_CART_HEADER),
-                JavaScriptClick.on (BTN_DELETE_PRODUCT)
+                JavaScriptClick.on (BTN_DELETE_PRODUCT),
+                WaitUntil.the(BTN_FINAL_PURCHASE, isVisible())
         );
     }
 }
