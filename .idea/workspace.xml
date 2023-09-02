@@ -229,12 +229,16 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2Unr1NYX8kiX23jITpS1UV0Q5Xd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -260,7 +264,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/omnipro/automation/questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RunnerDeleteProducts">
+  <component name="RunManager" selected="Gradle.Tests in 'omnipro.automation.runners'">
     <configuration name="RunnerCategorieProducts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -383,8 +387,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RunnerDeleteProducts" />
         <item itemvalue="Gradle.Tests in 'omnipro.automation.runners'" />
+        <item itemvalue="Gradle.RunnerDeleteProducts" />
         <item itemvalue="Gradle.RunnerPurchase" />
         <item itemvalue="Gradle.RunnerLogin" />
         <item itemvalue="Gradle.RunnerCategorieProducts" />
@@ -400,12 +404,15 @@
       <option name="presentableId" value="Default" />
       <updated>1693585969876</updated>
       <workItem from="1693597678323" duration="23662000" />
-      <workItem from="1693624770048" duration="5861000" />
+      <workItem from="1693624770048" duration="7017000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
